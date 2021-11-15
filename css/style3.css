@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.jumbotron{
+    /* margin:15px 30px 0px 30px; */
+    border-radius:10px;
+      background: 
+  linear-gradient(
+    rgba(0, 0, 250, 0.25), 
+    rgba(125, 250, 250, 0.45)
+  ),
+  url(image/main.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* color:white !important; */
+  height:450px;
+  }
+
+.header {
+	/* padding-top: 50px; */
+	/* color: white; */
+	font-size: 20px;
+	/* text-align: center;
+     */
+}
+
+.s1{
+  text-align:center;
+  background-color: #532E1C;
+  margin-top: -2.6%;
+}
+
+
+
+
+
+
+
+
+

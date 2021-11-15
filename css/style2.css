@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+/* body{
+  display:flexbox;
+} */
+.header .row{
+    background-color: #d3cb5f;
+    color: white;
+    padding-right: 0.5%;
+}
+
+.header .title img{
+  position: relative;
+  padding:2%;
+  border-radius: 20px;
+}
+
+.header h3{
+  padding-top: 20px;
+  right: 3%;
+  position: relative;
+  float: right;
+  font-size: 160%;
+}
+
+.header a:link {
+    color: yellowgreen;
+    background-color: transparent;
+    text-decoration: none;
+    position: relative;
+    right: 20px;
+    
+}
+
+.header2 li{
+    float: left;
+}
+.header2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(26, 80, 150);
+
+  }
+
+  .s{
+    background-color: rgba(36, 112, 199, 0.096);
+    
+  }
+  #form-control{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+  }
+
+  
+  #form-control label{
+    
+    /* position: relative; */
+    display: inline-block;
+    margin-bottom: 5px;
+    
+  }
+  #form-control input{
+    display: block;
+    padding: 1px 3px;
+    width: 100%;
+    height: 35px;
+  }
+  #form-control small{
+    position: absolute;
+    margin: 3px;
+    visibility: hidden;
+  }
+
+
+  li{
+    /* float: left; */
+    position: relative;
+    display: inline-block;
+    padding :0.2%
+    
+  }
+  
+  
+  li a {
+    display: block;
+    
+    padding: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    
+  }
+  
+  .header2 li a:hover {
+    background-color: #9E7777;
+    color: white;
+  }
+  .s1{
+      background-image: url("../image/111.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+    }
+  
+  #form1{
+      padding: 3%;
+      padding-left: 8%;
+      padding-bottom: 5px;
+      display: block;
+      
+  }
+  .terms li{
+      font-size: 90%;
+      padding-bottom: 2px;
+  }
+  input[type="text"], textarea {
+    
+    background-color:whitesmoke;  
+  
+  }
+  input[type="password"], textarea {
+
+    background-color :whitesmoke; 
+  
+  }
+  
+ 
+i{
+  position: absolute;
+  /* padding-top: 8px;
+  padding-left:5px; */
+  top: 45px;
+  right: 80px;
+  left: 77%;
+  visibility: hidden;
+}
+
+ 
+
+#form-control i.fa-check-circle{
+  color: rgb(91, 146, 8);
+  
+  visibility: hidden;
+}
+#form-control i.fa-exclamation-circle{
+  color: red;
+  visibility: hidden;
+}
+
+form .indicator{
+  /* color: white; */
+  width: 80%;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0px;
+  display: none;
+  
+}
+form .indicator span{
+  width: 80%;
+  height: 100%;
+  background: rgb(221, 157, 157);
+  border-radius: 5px;
+  position: relative;
+  
+}
+form .indicator span.medium{
+  margin: 0 3px;
+}
+form .indicator span::before{
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+form .indicator span.active.weak::before{
+  background: red;
+  
+}
+form .indicator span.active.medium::before{
+  background: orange;
+}
+form .indicator span.active.strong::before{
+  background: green;
+}
+
+form .text{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: -5px;
+  display: none;
+}
+
+form .text.weak{
+  color: red;
+}
+form .text.medium{
+  color: orange;
+}
+form .text.strong{
+  color: greenyellow;
+}
+  
